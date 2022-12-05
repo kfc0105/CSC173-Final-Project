@@ -31,7 +31,7 @@ After narrowing down the buisnesses, let's look at what are the quick tips about
   
 - [ ] You will need to provide at least **two new static visualizations** (Tableau, d3.js, or vega, vega-lite) and **one new interactive visualization** (using d3.js or vega, vega-lite) and **at least one of your old visualizations** from the previous assignment into a single themed topic of that data:
 
- - [ ] Summary presentation video
+ - [ ] Summary presentation video @Kenta
 
 # Setup
 
