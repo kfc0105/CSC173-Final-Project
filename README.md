@@ -25,8 +25,8 @@ After narrowing down the buisnesses, let's look at what are the quick tips about
   
 - [ ] Filter by categories by either adding on to the search or drop down menu @
 
-- [ ] Add tips.json's "text": "" attribute to the "yelp_filtered_to_santa_barbara.json" @
-  - [ ] Display the quick tip on to the tool tip when hovering over the circles on the map @ 
+- [ ] Add tips.json's "text": "" attribute to the "yelp_filtered_to_santa_barbara.json" @Julian
+  - [ ] Display the quick tip on to the tool tip when hovering over the circles on the map @Julian
   - [ ] If times allows process the quick tip from tips.json and make a word cloud to show what are the most frequently occuring word. @
   
 - [ ] You will need to provide at least **two new static visualizations** (Tableau, d3.js, or vega, vega-lite) and **one new interactive visualization** (using d3.js or vega, vega-lite) and **at least one of your old visualizations** from the previous assignment into a single themed topic of that data:
