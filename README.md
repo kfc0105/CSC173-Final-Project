@@ -19,7 +19,7 @@ After narrowing down the buisnesses, let's look at what are the quick tips about
 
 # Requirements
 - [ ] Static visualization of the summary for restaurants in Santa Barbara
-  - [ ] number of restaurants @
+  - [ ] number of restaurants @Sam(tableau)
   - [ ] number of categories @
   - [ ] 
   
