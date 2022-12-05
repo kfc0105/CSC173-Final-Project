@@ -23,7 +23,7 @@ After narrowing down the buisnesses, let's look at what are the quick tips about
   - [ ] number of categories @
   - [ ] 
   
-- [ ] Filter by categories by either adding on to the search or drop down menu @
+- [ ] Filter by categories by either adding on to the search or drop down menu @Kenta
 
 - [ ] Add tips.json's "text": "" attribute to the "yelp_filtered_to_santa_barbara.json" @Julian
   - [ ] Display the quick tip on to the tool tip when hovering over the circles on the map @Julian
