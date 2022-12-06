@@ -52,7 +52,7 @@
 // mapid is the id of the div where the map will appear
 var map = L
   .map('mapid')
-  .setView([34.45,-119.7], 12);   // center position + zoom
+  .setView([39.5077,-119.7843], 12);   // center position + zoom
 
 //add the variable which will store the data for dots
 var locations
@@ -75,7 +75,7 @@ L.svg().addTo(map);
 
 
 
-d3.json("yelp_filtered_to_santa_barbara.json", function(error, yelpData) {
+d3.json("yelp_filtered_to_reno.json", function(error, yelpData) {
   if (error) throw error; 
   console.log(yelpData)
   dataset = yelpData
