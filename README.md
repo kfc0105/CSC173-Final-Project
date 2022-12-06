@@ -18,8 +18,8 @@ After narrowing down the buisnesses, let's look at what are the quick tips about
 
 
 # Requirements
-- [ ] Static visualization: summary for restaurants in Reno
-  - [ ] number of restaurants @Sam(tableau)
+- [ ] Static visualization: summary for restaurants in Reno (embed the image into the index.html on the top)
+  - [ ] number of restaurants @Sam(tableau) 
   - [ ] number of buisnesses in each categoreis @Abdullah
   
 - [ ] Interactive visualization: Filter by categories by either adding on to the search or drop down menu @Kenta
