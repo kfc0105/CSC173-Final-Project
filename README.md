@@ -6,9 +6,9 @@ index.html will be our final submission
 Hosted page: https://kfc0105.github.io/CSC173-Final-Project/
 
 # Our Data Story
-### Theme: What are the good and bad restaurants in Santa Barbara?
+### Theme: What are the good and bad restaurants in Reno?
 
-### Summary of Santa Barabara restaurants
+### Summary of Businesses in Reno
 Get the overview of the data that is available for SantaBarbara in Yelp Dataset. Learn about basic before diving deeper.
 ### Search an filter through businesses and star ratings and review counts in map
 Understand where the restaurants are and basic popularity by sliding through the search business filter, star rating filter, and review count filter. 
@@ -18,20 +18,19 @@ After narrowing down the buisnesses, let's look at what are the quick tips about
 
 
 # Requirements
-- [ ] Static visualization of the summary for restaurants in Santa Barbara
-  - [ ] number of restaurants @
-  - [ ] number of categories @
-  - [ ] 
+- [ ] Static visualization: summary for restaurants in Reno (embed the image into the index.html on the top)
+  - [ ] number of restaurants @Sam(tableau) 
+  - [ ] number of buisnesses in each categoreis @Abdullah
   
-- [ ] Filter by categories by either adding on to the search or drop down menu @
+- [ ] Interactive visualization: Add toggle filter for RestaurantTakeout attribute @Kenta
+- [ ] Organize layout of the web page @Kenta
 
-- [ ] Add tips.json's "text": "" attribute to the "yelp_filtered_to_santa_barbara.json" @
-  - [ ] Display the quick tip on to the tool tip when hovering over the circles on the map @ 
-  - [ ] If times allows process the quick tip from tips.json and make a word cloud to show what are the most frequently occuring word. @
+- [ ] Add tips.json's "text": "" attribute to the "yelp_filtered_to_santa_barbara.json" @Julian
+  - [ ] Interactive visualization: Display the quick tip on to the tool tip when hovering over the circles on the map @Julian
   
-- [ ] You will need to provide at least **two new static visualizations** (Tableau, d3.js, or vega, vega-lite) and **one new interactive visualization** (using d3.js or vega, vega-lite) and **at least one of your old visualizations** from the previous assignment into a single themed topic of that data:
+- [ ] You will need to provide at least **two new static visualizations** (Tableau, d3.js, or vega, vega-lite) **one new interactive visualization** (using d3.js or vega, vega-lite) and **at least one of your old visualizations** from the previous assignment into a single themed topic of that data:
 
- - [ ] Summary presentation video
+ - [ ] Summary presentation video @everyone
 
 # Setup
 
