@@ -22,7 +22,7 @@ After narrowing down the buisnesses, let's look at what are the quick tips about
   - [ ] number of restaurants @Sam(tableau) 
   - [ ] number of buisnesses in each categoreis @Abdullah
   
-- [ ] Interactive visualization: Filter by categories by either adding on to the search or drop down menu @Kenta
+- [ ] Interactive visualization: Add toggle filter for RestaurantTakeout attribute @Kenta
 - [ ] Organize layout of the web page @Kenta
 
 - [ ] Add tips.json's "text": "" attribute to the "yelp_filtered_to_santa_barbara.json" @Julian
