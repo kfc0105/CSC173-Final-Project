@@ -23,6 +23,7 @@ After narrowing down the buisnesses, let's look at what are the quick tips about
   - [ ] number of buisnesses in each categoreis @Abdullah
   
 - [ ] Interactive visualization: Filter by categories by either adding on to the search or drop down menu @Kenta
+- [ ] Organize layout of the web page @Kenta
 
 - [ ] Add tips.json's "text": "" attribute to the "yelp_filtered_to_santa_barbara.json" @Julian
   - [ ] Interactive visualization: Display the quick tip on to the tool tip when hovering over the circles on the map @Julian
