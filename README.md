@@ -29,7 +29,8 @@ After narrowing down the buisnesses, let's look at what are the quick tips about
   - [ ] Display the quick tip on to the tool tip when hovering over the circles on the map @Julian
   - [ ] If times allows process the quick tip from tips.json and make a word cloud to show what are the most frequently occuring word. @
   
-- [ ] You will need to provide at least **two new static visualizations** (Tableau, d3.js, or vega, vega-lite) and **one new interactive visualization** (using d3.js or vega, vega-lite) and **at least one of your old visualizations** from the previous assignment into a single themed topic of that data:
+- [ ] You will need to provide at least **two new static visualizations** (Tableau, d3.js, or vega, vega-lite) @Abdullah
+- [ ] **one new interactive visualization** (using d3.js or vega, vega-lite) and **at least one of your old visualizations** from the previous assignment into a single themed topic of that data:
 
  - [ ] Summary presentation video @Kenta
 
