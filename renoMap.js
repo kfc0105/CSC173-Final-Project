@@ -47,9 +47,49 @@ d3.json("yelp_filtered_to_reno.json", function(error, yelpData) {
                     .style("fill", d=> myColor(d.stars))
                     .attr("stroke", d=> myColor(d.stars))
                     .attr("stroke-width", 3)
-                    .attr("fill-opacity", .4)
+                    .style("pointer-events","visible")
+                    .attr("fill-opacity", .4);
 
 
+
+  var Tooltip = d3.select("#newmap")
+                  .append("div")
+                  .style("opacity", 0)
+                  .attr("class", "tooltip")
+                  .style("background-color", "white")
+                  .style("border", "solid")
+                  .style("border-width", "2px")
+                  .style("border-radius", "5px")
+                  .style("padding", "5px")
+                  .style('position', 'absolute')
+
+
+  var mouseover = function(d) {
+                    Tooltip
+                      .style("opacity", 1)
+                    d3.select(this)
+                      .style("stroke", "black")
+                      .style("opacity", 1)
+                  }
+  var mousemove = function(d) {
+                    Tooltip
+                      .html(d.name +"<br>Customer tip: " + d.tip)
+                      .style("left", (event.pageX) + "px")
+                      .style("top", (event.pageY) + "px")
+                  }
+  var mouseleave = function(d) {
+                    Tooltip
+                      .style("opacity", 0)
+                    d3.select(this)
+                      .style("stroke", "none")
+                      .style("opacity", 0.8)
+                  }
+
+  locations.on("mouseover", mouseover)
+            .on("mousemove", mousemove)
+            .on("mouseleave", mouseleave)
+
+                  
     // locations.filter(d=> d.name == 'H&M').attr("r", 20).style("fill",'black')
     console.log(locations.data())
 
