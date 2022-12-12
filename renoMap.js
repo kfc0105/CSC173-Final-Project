@@ -194,5 +194,36 @@ d3.select("button").on("click", function() {
           locations.attr("stroke-width", 0).attr("fill-opacity", 0)
         }
       }
-      
     });
+
+d3.select("select")
+    .on("change", function(d) {
+
+      var selected = d3.select("#d3-dropdown").node().value;
+      console.log(selected)
+
+      if(selected == "All"){
+        locations.attr("stroke-width", 3).attr("fill-opacity", .4)
+      }
+      
+      if(selected == "True"){
+        if(dataset.filter(d=> d.takeout == "True"))
+        {
+          locations.filter(d=> d.takeout == "True").attr("stroke-width", 0).attr("fill-opacity", 0)
+        }
+        else{
+          locations.attr("stroke-width", 0).attr("fill-opacity", 0)
+        }
+      }
+
+      if(selected == "False"){
+        if(dataset.filter(d=> d.takeout == "False"))
+        {
+          locations.filter(d=> d.takeout == "False").attr("stroke-width", 0).attr("fill-opacity", 0)
+        }
+        else{
+          locations.attr("stroke-width", 0).attr("fill-opacity", 0)
+        }
+      }
+      
+});

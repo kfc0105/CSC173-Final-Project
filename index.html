@@ -13,11 +13,10 @@
 
 <fieldset style="margin: 50px 50px 50px 50px">
   <legend>
-    <h2>This is our new and improved visualization</h2>
+    <h2>What are good and bad restuarants in Reno?</h2>
   </legend>
   <div id="newmap">
     <!-- tooltip -->
-  
     <!-- Create an element where the map will take place -->
     <div class='map' id="new-mapid" style="margin: 50px 50px 50px 50px"></div>
   
@@ -41,7 +40,14 @@
         <div class="col-sm-2"><p class="slider middle" id="new-value-simple"></p></div>
         <div class="col-sm"><div class="slider" id="new-slider-simple"></div></div>
       </div>
-    <!-- Sldiers end -->
+      
+      <!--- drop down select-->
+      <p>Take out</p>
+      <select id="d3-dropdown">
+        <option value="All">All</option>
+        <option value="True">True</option>
+        <option value="False">False</option>
+      </select>
     </div>
   </div>
 </fieldset>
@@ -68,6 +74,7 @@
   color: red;
   z-index: 1;
 }
+
 </style>
 <body>
    
