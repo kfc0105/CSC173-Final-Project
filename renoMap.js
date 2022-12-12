@@ -207,6 +207,7 @@ d3.select("select")
       }
       
       if(selected == "True"){
+        locations.attr("stroke-width", 3).attr("fill-opacity", .4)
         if(dataset.filter(d=> d.takeout == "True"))
         {
           locations.filter(d=> d.takeout == "True").attr("stroke-width", 0).attr("fill-opacity", 0)
