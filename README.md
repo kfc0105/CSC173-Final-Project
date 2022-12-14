@@ -18,8 +18,8 @@ After narrowing down the buisnesses, let's look at what are the quick tips about
 
 
 # Requirements
-- [ ] Static visualization: summary for restaurants in Reno (embed the image into the index.html on the top)
-  - [ ] number of restaurants @Sam(tableau) 
+- [x] Static visualization: summary for restaurants in Reno (embed the image into the index.html on the top)
+  - [x] number of restaurants @Sam(tableau) 
   - [x] number of buisnesses in each categoreis @Abdullah
   
 - [x] Interactive visualization: Add toggle filter for RestaurantTakeout attribute @Kenta
