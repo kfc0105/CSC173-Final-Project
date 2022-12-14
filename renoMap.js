@@ -30,7 +30,7 @@ d3.json("yelp_filtered_to_reno.json", function(error, yelpData) {
   dataset = yelpData
 
   var myColor = d3.scaleLinear().domain([1,5]) 
-  .range(['blue','orange','green'])
+  .range(['green','red'])
 
   console.log(d3.min(yelpData, function(d){return d.stars}))
 
@@ -43,7 +43,7 @@ d3.json("yelp_filtered_to_reno.json", function(error, yelpData) {
                   .append("circle")
                     .attr("cx", function(d){ return map.latLngToLayerPoint([d.latitude, d.longitude]).x })
                     .attr("cy", function(d){ return map.latLngToLayerPoint([d.latitude, d.longitude]).y })
-                    .attr("r", function(d){return Math.sqrt(d.review_count/Math.PI)*2})
+                    .attr("r", function(d){return Math.sqrt(d.review_count/Math.PI)/2})
                     .style("fill", d=> myColor(d.stars))
                     .attr("stroke", d=> myColor(d.stars))
                     .attr("stroke-width", 3)
