@@ -30,7 +30,7 @@ d3.json("yelp_filtered_to_reno.json", function(error, yelpData) {
   dataset = yelpData
 
   var myColor = d3.scaleLinear().domain([1,5]) 
-  .range(['green','red'])
+  .range(['red','green'])
 
   console.log(d3.min(yelpData, function(d){return d.stars}))
 
