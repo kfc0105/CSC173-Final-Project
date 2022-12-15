@@ -15,6 +15,7 @@ Understand where the restaurants are and basic popularity by sliding through the
 ### Know more about the businesses by looking at the quick tips 
 After narrowing down the buisnesses, let's look at what are the quick tips about the review. Does it say that it has a bad service or some good food suggestions?
 
+Our goal is to tell a data story about businesses in Reno. We first began with letting the user know what are included in the Yelp Dataset that we specifically filtered to Reno. By giving the basic summary of the yelp data, it gives the user a sense of what they are going to be able to learn about it. Next we included the map visualization which allows the user to navigate and learn more about the statistics and facts about each buesinesses. Our web page let's the user be more informed about the businesses with engagement. 
 
 
 # Requirements
@@ -28,9 +29,9 @@ After narrowing down the buisnesses, let's look at what are the quick tips about
 - [x] Add tips.json's "text": "" attribute to the "yelp_filtered_to_santa_barbara.json" @Julian
   - [x] Interactive visualization: Display the quick tip on to the tool tip when hovering over the circles on the map @Julian
   
-- [ ] You will need to provide at least **two new static visualizations** (Tableau, d3.js, or vega, vega-lite) **one new interactive visualization** (using d3.js or vega, vega-lite) and **at least one of your old visualizations** from the previous assignment into a single themed topic of that data:
+- [x] You will need to provide at least **two new static visualizations** (Tableau, d3.js, or vega, vega-lite) **one new interactive visualization** (using d3.js or vega, vega-lite) and **at least one of your old visualizations** from the previous assignment into a single themed topic of that data:
 
- - [ ] Summary presentation video @everyone
+ - [x] Summary presentation video @everyone
 
 # Setup
 
